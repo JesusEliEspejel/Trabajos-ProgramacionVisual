@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    
+        let cout = 0;
+        var opc=1;
+        var respuestas = 10;
+        var Respuestascorrectas = 10["Jesus", "Joaquin", "Azul", "Pizza", "Frio", "Politecnica", "22", "Abril", "Gato", "Terror"];
+    
+        alert("Hola bienvenido a mi Quiz");
+        alert("¿Cuanto sabes sobre mi?");
+        alert("Responde las preguntas y acierta");
+
+        switch(opc)
+        {
+            case 1:
+                //Menu
+                respuesta=prompt("1.-¿Cómo me llamo?");
+                respuesta=prompt("2.-¿Cuál es mi apellido?");
+                respuesta=prompt("3.-¿Cuál es mi color favorito?");
+                respuesta=prompt("4.-¿Cuál es mi comida favorita?");
+                respuesta=prompt("5.-¿Qué prefiero Calor o frio?");
+                respuesta=prompt("6.-¿En que escuela voy?");
+                respuesta=prompt("7.-¿Cuántos años tengo?");
+                respuesta=prompt("8.-¿Qué mes cumplo años?");
+                respuesta=prompt("9.-¿Animal favorito?");
+                respuesta=prompt("10.-¿Genero de películas favorito?");
+
+
+                if(respuestas == Respuestascorrectas)
+                {
+                    console.log("");
+                    alert("Puntuacion aprovada");
+                }//imprime pintuacion aprovatoria si la cantidad mayor o igual a 6
+                else 
+                {
+                    alert("\nPuntuacion Reprobatoria");
+                }
+            break;
+        }
+
+</script>
+</body>
+</html>
