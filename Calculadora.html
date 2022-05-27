@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+    var Opc;
+    var num1;
+    var num2;
+    var result;
+
+    alert("*********Bienvenido a la calculadora********");
+    num1=prompt("Ingrese el primer numero");
+    num2=prompt("Ingrese el segundo numero");
+
+    Opc=prompt("¿Que operacion decea realizar?\n1. Suma\n2. Resta\n3. Multiplicacion\n4. Divicion");
+
+    switch(Opc)
+    {
+        case 1:function suma(num1,num2)
+        {
+            result=num1+num2;
+            return result;
+        }
+        break;
+
+        case 2:function resta(num1,num2)
+        {
+            result=num1-num2;
+            return result;
+        }
+        break;
+
+        case 3:function multiplicacion(num1,num2)
+        {
+            result=num1*num2;
+            return result;
+        }
+        break;
+
+        case 4:function divicion(num1,num2)
+        {
+            result=num1/num2;
+            return result;
+        }
+        break;
+    }
+
+</script>
+</body>
+</html>
